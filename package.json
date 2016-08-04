@@ -1,0 +1,26 @@
+{
+  "name": "redux-request-action-generator",
+  "version": "0.0.1",
+  "description": "simplify the async request for redux",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "build": "babel src --out-dir lib"
+  },
+  "author": "Boelroy",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.14.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-plugin-transform-es2015-parameters": "^6.11.4",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-strict-mode": "^6.11.3"
+  }
+}
