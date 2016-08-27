@@ -22,3 +22,17 @@ import { reducer as requestReduce } from 'redux-request-action-generator';
 export requestReduce('UNIQUE_ID')(initailState); // 这里的 UNIQUE_ID 和 action 中的必须保持一样
 
 ```
+
+发出请求
+```javascript
+import { requestAction } from './action.js'
+
+dispatch(requestAction(param)).then(()=>{
+  console.log('success');
+}, () => {
+  console.log('error');
+})
+
+// 你也可以从redux中取到对应的请求的response
+
+```
